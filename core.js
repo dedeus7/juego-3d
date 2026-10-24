@@ -18,9 +18,6 @@ const THREE_URLS = ['https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.
 
 const GAMES = {}, ORDER = [];
 const COMING = [
-  { emoji: '📦', name: 'Prop Hunt 3D', desc: 'Escóndete convertido en objeto' },
-  { emoji: '🏰', name: 'Imperios', desc: 'Órdenes secretas, pactos y traiciones' },
-  { emoji: '🕵️', name: 'Asesinato en la mansión', desc: 'Pistas, coartadas y un culpable' },
 ];
 
 let peer = null, hostConn = null, isHost = false, myId = null, myName = '', code = '';
